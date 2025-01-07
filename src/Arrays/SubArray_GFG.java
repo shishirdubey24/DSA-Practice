@@ -1,7 +1,7 @@
 package Arrays;
 import java.util.Scanner;
 public class SubArray_GFG {
-  public  boolean Check(int[] a,int[]b){
+  public static boolean Check(int[] a,int[]b){
       int n=a.length;
       System.out.println("Received Array Length is"+ n);
       int m=b.length;
@@ -17,8 +17,9 @@ for(int i=0;i<m;i++){
        return true;
    }
    }
-  return true;
+
 }
+      return true;
   }
     public static void main(String[] args) {
        Scanner sc=new Scanner(System.in);
@@ -37,6 +38,8 @@ for(int i=0;i<m;i++){
         for(int i=0;i<m;i++){
             b[i]=sc.nextInt();
         }
-          Check(a,b);
+
+        boolean var= Check(a,b);
+        System.out.println(var);
     }
 }
