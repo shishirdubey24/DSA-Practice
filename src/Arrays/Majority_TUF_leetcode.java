@@ -3,9 +3,10 @@ package Arrays;
 public class Majority_TUF_leetcode {
   public static int  check(int []arr){
       int n=arr.length;
-      int count=0;
+
      for(int i=0;i<n;i++){
-    for(int j=i+1;j<n-1;j++){
+         int count=0;
+    for(int j=0;j<n;j++){
       if(arr[j]==arr[i]){
          count++;
       }
