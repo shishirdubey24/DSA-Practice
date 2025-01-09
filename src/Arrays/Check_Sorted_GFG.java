@@ -8,6 +8,6 @@ public class Check_Sorted_GFG {
             found=true;
         }
      }
-    if(found!=true) return false;
+ return false;
  }
 }
